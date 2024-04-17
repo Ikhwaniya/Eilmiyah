@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@fastify/static": "^7.0.3",
+    "fastify": "^4.26.2"
+  },
+  "name": "eilmiyah",
+  "version": "1.0.0",
+  "description": "Islamic knowledge search engine",
+  "main": "server.js",
+  "scripts": {
+    "index": "node indexer.js",
+    "deps": "npm i",
+    "run": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deniied0",
+  "license": "ISC"
+}
